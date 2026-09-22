@@ -80,11 +80,19 @@ a { color: inherit; }
 .wordmark {
   font-family: 'Anton', 'Impact', sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   letter-spacing: 0.02em;
+  line-height: 1.25;
   text-transform: uppercase;
-  text-decoration: none;
   color: var(--logo-color);
+  background: #000;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 40px;
 }
 
 .wordmark span { color: var(--logo-color); }
